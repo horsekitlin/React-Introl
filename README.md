@@ -2,9 +2,9 @@
 
 ## 攜手打造一個前端的樂高世界
 
-1. [Reactjs概述](reactintrol.md)
+1. [第一隻Hello World](helloworld.md)
 
-2. [第一隻Hello World](helloworld.md)
+2. [Reactjs概述](reactintrol.md)
 
 3. [刻畫第一個Component](firstcomponent.md)
 
