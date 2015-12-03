@@ -4,33 +4,35 @@
 
 ## Demo
 
-    'use strict';
-    var React = require('react');
-    var ReactDOM = require('react-dom');
+```js
+'use strict';
+var React = require('react');
+var ReactDOM = require('react-dom');
 
-    var Image = React.createClass({
-        render : function(){
-            return <img alt="Brand" src={this.props.src}/>
-        }
-    });
+var Image = React.createClass({
+    render : function(){
+        return <img alt="Brand" src={this.props.src}/>
+    }
+});
 
-    var Navbar = React.createClass({
-        render : function(){
-            return (
-                <nav className="navbar navbar-default">
-                <div className="container-fluid">
-                    <div className="navbar-header">
-                        <a className="navbar-brand" href="#">
-                            <Image
-                                src="http://jstudio.idv.tw/downloads/imgs/1805898618.jpg" />;
-                        </a>
-                    </div>
+var Navbar = React.createClass({
+    render : function(){
+        return (
+            <nav className="navbar navbar-default">
+            <div className="container-fluid">
+                <div className="navbar-header">
+                    <a className="navbar-brand" href="#">
+                        <Image
+                            src="http://jstudio.idv.tw/downloads/imgs/1805898618.jpg" />;
+                    </a>
                 </div>
-                </nav>
-            );
-        }
-    });
+            </div>
+            </nav>
+        );
+    }
+});
 
-    ReactDOM.render(
-        <Navbar />,
-        document.getElementById('container'));
+ReactDOM.render(
+    <Navbar />,
+    document.getElementById('container'));
+```
