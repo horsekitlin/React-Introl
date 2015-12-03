@@ -1,0 +1,24 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "fluxxor demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "dev": "webpack -p && webpack-dev-server --port 8089 --no-info --content-base app"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "TomasLin <horsekit1982@gmail.com> (horsekitlin.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "jsx-loader": "^0.13.2",
+    "moment": "^2.10.6",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
