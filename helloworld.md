@@ -2,7 +2,7 @@
 
 ## 第一種選擇
 
-你可以到[這裡](./examples/react-demo/README.md)
+你可以到[這裡](examples/react-demo/README.md)
 
 ## 第二種選擇
 
