@@ -22,11 +22,11 @@
 
 1. componentDidMount
 
-    元件被render後執行的動作
+    元件被 Mount 後執行的動作
 
 2. componentWillMount
 
-    在元件render 前要先做的準備工作
+    在元件 Mount 前要先做的準備工作
 
 3. componentWillUnmount
 
