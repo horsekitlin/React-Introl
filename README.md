@@ -6,7 +6,7 @@
 
 2. [第一隻Hello World](helloworld.md)
 
-3. [刻畫第一個Component](component.md)
+3. [刻畫第一個Component](firstcomponent.md)
 
 4. [關於State 與 Props的那些事](stateandprops.md)
 
