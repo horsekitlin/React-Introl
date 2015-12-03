@@ -12,6 +12,6 @@
 
     $ npm run dev
 
-## 打開瀏覽器 Hello world
+[打開瀏覽器 單機版聊天室](http://localhost:8089/webpack-dev-server/index.html)
 
 ## Npm webpack  又是另外一個故事了
