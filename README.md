@@ -1,6 +1,6 @@
 # React王者降臨
 
-[TWNIC](logo.png)
+![夢種子](logo.png)
 
 ## 攜手打造一個前端的樂高世界
 
