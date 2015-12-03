@@ -2,11 +2,23 @@
 
 ## 最近很夯的 SPA(single page application)
 
-Mount 的動作是表示從 virtual DOM 掛載到真實的DOM這個行為
+在一個頁面會有許多的Component
+
+所以我們要在設計在某些頁面僅僅顯示相對應的Component
 
 如同將要展示的產品放置到展示櫥窗的動作
 
+將我們要給使用者看到的區塊掛上瀏覽器
+
+提供給使用者瀏覽
+
+而Mount 的動作是表示從 virtual DOM 掛載到真實的DOM這個行為
+
 ## 常用的API
+
+有時候我們再掛上某些 Component 的時候還需要做一些處理，
+
+可以藉由下方幾個API 達到我們想要的動作
 
 1. componentDidMount
 
