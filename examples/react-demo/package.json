@@ -6,13 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p",
-    "dev" : "webpack -p && webpack-dev-server --port 8089 --no-info --content-base app"
+    "dev": "webpack -p && webpack-dev-server --port 8089 --no-info --content-base app"
   },
   "keywords": [
     "react"
   ],
   "license": "MIT",
   "dependencies": {
+    "jsx-loader": "^0.13.2",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "webpack": "^1.12.9",
