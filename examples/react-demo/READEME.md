@@ -6,12 +6,18 @@
 
 ## Install package
 
-    $ npm install
+下載zip -> 解壓縮
 
+    $ cd React-Introl/examples/react-demo && npm install
+
+或
+
+    $ git clone https://github.com/horsekitlin/React-Introl.git && cd React-Introl/examples/react-demo && npm install
+    
 ## start service
 
     $ npm run dev
 
 [打開瀏覽器 Hello world](http://localhost:8089/webpack-dev-server/index.html)
 
-## Npm webpack  又是另外一個故事了
+## Npm webpack  又是另外一個故事了.........
