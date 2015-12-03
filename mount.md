@@ -1,5 +1,7 @@
 # 控制你的Component 常用的 Method
 
+## 最近很夯的 SPA(single page application)
+
 Mount 的動作是表示從 virtual DOM 掛載到真實的DOM這個行為
 
 如同將要展示的產品放置到展示櫥窗的動作
@@ -29,13 +31,17 @@ Mount 的動作是表示從 virtual DOM 掛載到真實的DOM這個行為
             alert('招喚神犬!');
         },
         componentDidMount : function(){
-            alert('主人找我何事?');
+
+            $('#dog').animate({width : '500px'}, 'slow');
+            $('#dog').animate({height : '500px'}, 'slow');
+            $('#dog').animate({weight : '200px'}, 'slow');
+            $('#dog').animate({height : '200px'}, 'slow');
         },
         componentWillUnmount : function(){
             alert('汪！汪！');
         },
         render : function(){
-            return <img src='http://www.daliulian.net/imgs/image/19/1976926.jpg' />
+            return <img id='dog' src='http://www.daliulian.net/imgs/image/19/1976926.jpg' />
         }
     });
 
